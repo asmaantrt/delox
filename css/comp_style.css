@@ -1,0 +1,87 @@
+/* body{ height:1000px;} */
+
+.container h2{margin-top: 73px;}
+
+.carousel .carousel-inner img {
+ height: 219px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  
+  
+}
+.container .price_box
+ {
+    background: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    /* width: 200px; */
+ }
+
+ .container .price_box h4 {margin: 5px 0 15px;}
+ .mobile_item1 .price_box h4
+ {
+
+   font-family: 'Dancing Script', cursive;
+   font-family: 'Orbitron', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Vollkorn', serif;
+   font-size: 20px;
+ }
+
+.container .mobile_item1 .price_box p {margin-bottom: 9px;}
+/* عندما يتم عمل hover على الصندوق كامل سيتم عمل حدث على الp */
+/* سيتم تكبير الدائرة قليلا و دوران السعر */
+.container .mobile_item1 .price_box:hover p 
+ {
+   -webkit-transform:scale(1.5,1.5) rotate(360deg);
+   -moz-transform:scale(1.5,1.5) rotate(360deg);
+   -o-transform:scale(1.5,1.5) rotate(360deg);
+   transform:scale(1.5,1.5) rotate(360deg);
+ 
+ }
+.mobile_item1{padding-top: 20px;padding-bottom: 40px;}
+
+
+.container .mobile_item1 .price_box a {margin-bottom: 5px;}
+
+/* End Section Price Table */
+
+@media (max-width: 768px) {
+  /* ليتم حذف ديف عرض 3 عناصر في السطر  */
+  .carousel-inner .carousel-item > div {display: none;}
+
+  .carousel-inner .carousel-item > div:first-child {display: block;}
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {transform: translateX(30.33%);}
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {transform: translateX(-30.33%);}
+}
+/* كل شي شاشات اكبر من 768 نفذ ذلك */
+@media (min-width:991px) 
+{  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {transform: translateX(48.444%);}
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {transform: translateX(-48.444%);}
+}
+
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {display: flex;}
+
+  .carousel-inner .carousel-item-right,
+  .carousel-inner .carousel-item-left{ transform: translateX(0);}
+
+
+
+    .hvr-sweep-to-right:before {
+      background:rgba(153, 140, 140,0.4);
+      z-index: 0;}

@@ -1,0 +1,133 @@
+/* أي شخص يدخل على الموقع من جهاز بهذا المقاس طبق عليهه التنسيقات التالية */
+/* هذا مقاس اجهزة الجولات  */
+
+@media(max-width:576px)
+ {
+   
+   .div-picture{text-align: center;}
+   /* mobile page style */
+
+   .mobile_item .price_box h4 {font-size: 30px;}
+
+    .container .mobile_item1  .price_box h4{ font-size: 30px;}
+   /* About Us Featuers */
+    .Featuers .feat{margin-bottom: 49px;}
+    
+   /* Start Section About Us */
+    .About{ margin-top: 50px;}
+   /* End */
+
+   /* Start Footer Section */
+    .footer h4{padding-top: 14px;}
+
+    .container .mobile_item1 .price_box img { max-width: 44%;height: 222px;padding-bottom: 15px;}
+
+    .container .mobile_item2 .price_box img { max-width: 22%; padding-bottom: 15px;}
+
+    .carousel .carousel-inner img {height: 143px;margin-top: 0px;}
+
+    .mobile_item .price_box h4
+    {
+
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Orbitron', sans-serif;
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Vollkorn', serif;
+      font-size: 20px;
+    }
+
+}
+
+/* شاشات صغيرة  */
+@media(min-width:577px) and (max-width:767px)
+ {
+   .div-picture {text-align: center;}
+
+   
+
+/* Start Footer Section */
+   .footer h4{padding-top: 14px;}
+
+/* mobile page style */
+   .mobile_item .price_box h4 {font-size: 30px;}
+
+   .container .mobile_item1 .price_box h4{font-size: 30px;}
+
+   .container .mobile_item1 .price_box img { max-width: 44%;height: 222px;padding-bottom: 15px;}
+
+   .container .mobile_item2 .price_box img { max-width: 28%; padding-bottom: 15px;}
+
+   .carousel .carousel-inner img {height: 192px;margin-top: 0px;}
+
+   .mobile_item .price_box h4
+ {
+   font-family: 'Dancing Script', cursive;
+   font-family: 'Orbitron', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Vollkorn', serif;
+   font-size: 20px;
+ }
+
+  }
+
+/* شاشات متوسطة  */
+@media(min-width:768px) and (max-width:991px)
+ {
+
+  /* mobile page style */
+  .mobile_item .price_box h4 {font-size: 30px;}
+
+  .container .mobile_item1  .price_box h4{font-size: 20px;}
+
+  .container .mobile_item1 .price_box img {  max-width: 53%; height: 174px;padding-bottom: 15px;}
+
+  .container .mobile_item2 .price_box img { max-width: 51%; padding-bottom: 15px;}
+
+  .carousel .carousel-inner img {height: 143px;margin-top: 0px;}
+
+  .mobile_item .price_box h4
+    {
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Orbitron', sans-serif;
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Vollkorn', serif;
+      font-size: 19px;
+    }   
+ }
+
+/* شاشات كبيرة  */
+@media(min-width:992px) and (max-width:1199px)
+ {
+  /* mobile page style */
+  .container .mobile_item1 .price_box img { max-width: 61%; padding-bottom: 15px;}
+
+  .container .mobile_item2 .price_box img { max-width: 51%; padding-bottom: 15px;}
+
+  .carousel .carousel-inner img {height: 143px;margin-top: 0px;}
+  
+  .carousel .carousel-inner .img1 {height: 179px; margin-top: 0px;}
+
+ }
+
+/* شاشات كبيرة جدا  */
+@media(min-width:1200px)
+ {
+  /* mobile page style */
+  .container .mobile_item1 .price_box img { max-width: 61%; padding-bottom: 15px;}
+
+  .container .mobile_item2 .price_box img { max-width: 51%; padding-bottom: 15px;}
+
+  .carousel .carousel-inner img {height: 143px; margin-top: 0px;}
+
+  .carousel .carousel-inner .img1 {height: 179px; margin-top: 0px;}
+}
+/* End Media Query */
+
+
+/* ******************Start media text***************** */
+
+
+
+
+
+
